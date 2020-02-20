@@ -17,7 +17,7 @@ www.google.com
 亲测补天公益src有上百站点，教育src大概三百站点包含此漏洞
 ![](1.png)
 ### 4、测试
-拿测试即可 CNVD-2020-10487-Tomcat-Ajp-lfi.py
+拿 CNVD-2020-10487-Tomcat-Ajp-lfi.py测试即可
 `python CNVD-2020-10487-Tomcat-Ajp-lfi.p target.com`
 ## 本项目仅供学习，严禁用于非法操作
 ps1:两个脚本的最后一行均为线程数-默认是20，可自行修改
@@ -25,4 +25,7 @@ ps1:两个脚本的最后一行均为线程数-默认是20，可自行修改
 multithreading(20)
 ```
 （要求ip.txt 中的域名数多余线程数-这是一个bug）
+
+
+
 ps2:src域名收集文件夹中为本人收集的教育src和补天src的一些域名，可直接测试
