@@ -338,5 +338,9 @@ def run_one_thread(url_list):
 if __name__ == '__main__':
 	file_str="8009.txt"
 	read_file(file_str)
-	multithreading(20)
+	thread_num=20
+	if len(http_website)<thread_num:
+		thread_num=len(http_website)
+	print(thread_num)
+	multithreading(thread_num)
 	#print(urlSepList)
