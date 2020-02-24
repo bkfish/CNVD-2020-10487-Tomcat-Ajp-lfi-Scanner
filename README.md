@@ -1,6 +1,6 @@
 ### python2多线程扫描Tomcat-Ajp协议文件读取漏洞
 刷src分狗的福利
-poc来源于[https://github.com/YDHCUI/CNVD-2020-10487-Tomcat-Ajp-lfi/](https://github.com/YDHCUI/CNVD-2020-10487-Tomcat-Ajp-lfi/)，加以修改
+poc来源于[https://github.com/YDHCUI/CNVD-2020-10487-Tomcat-Ajp-lfi/](https://github.com/YDHCUI/CNVD-2020-10487-Tomcat-Ajp-lfi/)，`poc作者不是本人！！！！`
 ## 操作
 ### 1、将需要扫描的域名/ip放于 ip.txt
 ip.txt中不需要加协议，比如
