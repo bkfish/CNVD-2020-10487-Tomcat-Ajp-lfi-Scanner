@@ -11,7 +11,6 @@ import requests
 
 
 
-# 存放内容
 http_URL = []
 
 #网站url

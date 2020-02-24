@@ -4,7 +4,6 @@
 import struct
 
 # Some references:
-# https://tomcat.apache.org/connectors-doc/ajp/ajpv13a.html
 def pack_string(s):
 	if s is None:
 		return struct.pack(">h", -1)
