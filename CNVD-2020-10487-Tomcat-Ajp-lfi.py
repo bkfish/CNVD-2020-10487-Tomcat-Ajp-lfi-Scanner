@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #CNVD-2020-10487  Tomcat-Ajp lfi
 #by ydhcui
+from io import StringIO
 import struct
 
 # Some references:
