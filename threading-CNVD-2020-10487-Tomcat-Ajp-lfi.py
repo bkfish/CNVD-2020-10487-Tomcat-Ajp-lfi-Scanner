@@ -5,10 +5,11 @@ import time
 import os
 import re
 import struct
+import sys
 import requests
 import Queue
 import requests
-
+from io import StringIO
 
 
 http_URL = []
