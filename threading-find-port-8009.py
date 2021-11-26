@@ -6,8 +6,6 @@ import time
 import os
 import re
 import requests
-import Queue
-import requests
 
 
 lock = threading.Lock()
