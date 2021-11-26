@@ -6,8 +6,6 @@ import os
 import re
 import struct
 import requests
-import Queue
-import requests
 
 
 
